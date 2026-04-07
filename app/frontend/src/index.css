@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Nunito:wght@400;600;700;800&display=swap");
+
+:root {
+  --paper: #efe5d2;
+  --paper-warm: #f8f4ea;
+  --ink-strong: #2d2114;
+  --ink-muted: #725f49;
+  --olive: #546a4a;
+  --olive-deep: #41513a;
+  --terracotta: #be523e;
+  --font-title: "DM Serif Display", Georgia, serif;
+  --font-body: "Nunito", "Segoe UI", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  margin: 0;
+  min-height: 100%;
+}
+
+body {
+  font-family: var(--font-body);
+  color: var(--ink-strong);
+  background:
+    radial-gradient(circle at 15% 20%, rgba(255, 255, 255, 0.45) 0%, transparent 38%),
+    radial-gradient(circle at 90% 85%, rgba(84, 106, 74, 0.15) 0%, transparent 30%),
+    linear-gradient(125deg, var(--paper), #e8ddc7 35%, #e6d3b8 100%);
+}

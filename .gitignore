@@ -1,0 +1,24 @@
+# Node and build artifacts
+node_modules/
+dist/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment
+.env
+.env.*
+
+# IDE and OS
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Vite cache
+.vite/
+
+# Python cache (if any tools are added later)
+__pycache__/
+*.pyc
